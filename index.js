@@ -25,7 +25,7 @@ document.querySelector(".Check").addEventListener("click", function () {
 
     displayMessage("🥳 Correct Number!");
     document.querySelector("body").style.backgroundColor = "yellowgreen";
-    document.querySelector(".display").style.width = "21rem";
+    document.querySelector(".display").style.width = "18rem";
 
     if (score > highScore) {
       highScore = score;

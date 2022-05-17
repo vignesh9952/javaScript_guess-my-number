@@ -4,21 +4,75 @@
   box-sizing: border-box;
 }
 
+@media only screen and (max-width: 576px) {
+  .choose {
+    font-size: 10px;
+  }
+  .again {
+    padding: 3px !important;
+    margin-left: 10px;
+    font-size: 15px !important;
+  }
+  .guess {
+    font-size: inherit !important;
+  }
+  .display {
+    font-size: xxx-large !important;
+    bottom: -27% !important;
+  }
+  .inputno {
+    font-size: 40px !important;
+    width: 70% !important;
+    padding: 15px 6px !important;
+  }
+  .Check {
+    margin-top: 16px !important;
+    padding: 3px 2px !important;
+    font-size: 12px !important;
+  }
+  .message {
+    font-size: 10px;
+    padding-bottom: 0px !important;
+  }
+  .message1 {
+    font-size: 10px;
+  }
+  .message2 {
+    font-size: 10px;
+  }
+  .score {
+    font-size: 14px;
+  }
+  .highscore {
+    font-size: 14px;
+  }
+  .left {
+    width: 45% !important;
+  }
+  .right {
+    width: 55% !important;
+  }
+}
+
 body {
   font-family: "Press Start 2P", cursive;
   color: white;
   background-color: black;
+}
+.header_wrapper {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
 }
 .again {
   font-family: "Press Start 2P", cursive;
   padding: 10px;
   font-size: 20px;
   margin-top: 10px;
+  margin-left: 8px;
 }
 .choose {
-  position: absolute;
-  top: 1rem;
-  right: 1rem;
+  margin-right: 5px;
 }
 header {
   position: relative;
