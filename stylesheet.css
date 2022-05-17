@@ -1,0 +1,91 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Press Start 2P", cursive;
+  color: white;
+  background-color: black;
+}
+.again {
+  font-family: "Press Start 2P", cursive;
+  padding: 10px;
+  font-size: 20px;
+  margin-top: 10px;
+}
+.choose {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+}
+header {
+  position: relative;
+  height: 40vh;
+  border-bottom: solid 7px white;
+}
+.guess {
+  line-height: 3rem;
+  position: absolute;
+  top: 47%;
+  left: 50%;
+  width: 100%;
+  font-size: 2rem;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+.display {
+  padding: 1rem 3rem;
+  position: absolute;
+  bottom: -30%;
+  font-size: 5rem;
+  text-align: center;
+  left: 50%;
+  color: black;
+  background: white;
+  transform: translate(-50%, -50%);
+  border: solid 2px white;
+}
+main {
+  display: flex;
+  height: 55vh;
+  color: #eee;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  flex-direction: column;
+}
+.inputno {
+  background: none;
+  color: white;
+  padding: 2rem 0rem;
+  width: 50%;
+  font-family: inherit;
+  font-size: 4rem;
+  text-align: center;
+}
+.Check {
+  padding: 1rem 1rem;
+  margin-top: 2rem;
+  font-family: inherit;
+  font-size: 24px;
+}
+.right {
+  font-size: larger;
+  display: flex;
+  flex-direction: column;
+  height: 30vh;
+  flex-wrap: wrap;
+  width: 50%;
+  justify-content: space-evenly;
+  align-content: center;
+}
+.message {
+  padding-bottom: 60px;
+}
